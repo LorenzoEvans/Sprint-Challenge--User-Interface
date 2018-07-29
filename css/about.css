@@ -153,6 +153,7 @@ body {
     
 }
 
+
 .nav-flex {
     display: flex;
     justify-content: space-between;
@@ -172,6 +173,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
+    margin: 10px 0;
 }
 
 
