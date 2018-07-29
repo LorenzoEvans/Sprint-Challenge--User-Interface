@@ -159,6 +159,14 @@ body {
     align-content: flex-start;
 }
 
+.nav-flex a:link {
+    color: black ;
+}
+
+.nav-flex a:visited {
+
+    color: black ;
+}
 .header-flex {
     display: flex;
     flex-direction: column;
@@ -211,31 +219,34 @@ body {
 }
 
 .footer-flex {
-    height: 80px ;
+    height: 100px ;
     display: flex ;
     flex-direction: column ;
     justify-content: space-around ;
     margin-top: 10px ;
 }
+.footer-flex section {
 
+    padding-bottom: 10px ;
+}
 button {
     background: white;
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 8%;
     align-self: flex-start;
+    padding: 5px 5px 5px 5px;
 }
 
 
 .bottom-nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white ;
     background: black ;
-    align-items: flex-end ;
+    align-items: center;
     align-content: flex-end ;   
-    height: 20px ;
-    bo
+    height: 60px ;
 }
 
 .bottom-nav a:link {
